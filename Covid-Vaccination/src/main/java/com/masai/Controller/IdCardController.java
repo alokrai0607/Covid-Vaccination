@@ -15,7 +15,7 @@ import com.masai.Exceptions.IdCardException;
 import com.masai.Exceptions.PanCardException;
 import com.masai.Models.IdCard;
 import com.masai.Services.IdCardService;
-
+//A convenience annotation that is itself annotated with @Controller and @ResponseBody.
 @RestController
 @RequestMapping("/idCards")
 public class IdCardController {

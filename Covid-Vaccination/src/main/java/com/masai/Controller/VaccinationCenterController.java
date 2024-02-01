@@ -19,6 +19,7 @@ import com.masai.Exceptions.VaccinationCenterException;
 import com.masai.Models.VaccinationCenter;
 import com.masai.Services.VaccinationCenterService;
 
+//A convenience annotation that is itself annotated with @Controller and @ResponseBody.
 @RestController
 @RequestMapping("/VaccinCenter")
 
@@ -46,14 +47,14 @@ public class VaccinationCenterController {
 	}
 	
 	//***********************  Controller for getAll Vaccination Center  ******************************//
-	@GetMapping("/GetAllCenters")
-	public ResponseEntity<List<VaccinationCenter>> getAllVaccinationCenterHandler( @RequestParam("key") String key ) 
-	                                         throws
-	LoginException, VaccinationCenterException{
-		List<VaccinationCenter> centers = centerService.getAllVaccivationCenters(key);
-		return new ResponseEntity<>(centers, HttpStatus.CREATED);
-		
-	}
+//	@GetMapping("/GetAllCenters")
+//	public ResponseEntity<List<VaccinationCenter>> getAllVaccinationCenterHandler( @RequestParam("key") String key ) 
+//	                                         throws
+//	LoginException, VaccinationCenterException{
+//		List<VaccinationCenter> centers = centerService.getAllVaccivationCenters(key);
+//		return new ResponseEntity<>(centers, HttpStatus.CREATED);
+//		
+//	}
 	
 	//***********************  Controller for update Vaccination Center ******************************//
 	@PutMapping("/UpdateCenter")

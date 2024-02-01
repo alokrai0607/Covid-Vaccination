@@ -13,7 +13,7 @@ import com.masai.Exceptions.AdminException;
 import com.masai.Exceptions.LoginException;
 import com.masai.Models.User;
 import com.masai.Services.LoginService;
-
+//A convenience annotation that is itself annotated with @Controller and @ResponseBody.
 @RestController("loginColtroller")
 public class LoginController {
 	

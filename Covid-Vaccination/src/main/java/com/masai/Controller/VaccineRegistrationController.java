@@ -20,7 +20,7 @@ import com.masai.Exceptions.MemberException;
 import com.masai.Exceptions.VaccineRegistrationException;
 import com.masai.Services.VaccineRegistrationService;
 
-
+//A convenience annotation that is itself annotated with @Controller and @ResponseBody.
 @RestController
 @RequestMapping("/vaccineRegistration")
 

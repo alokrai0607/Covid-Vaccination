@@ -17,7 +17,7 @@ import com.masai.Models.Vaccine;
 import com.masai.Exceptions.LoginException;
 import com.masai.Exceptions.VaccineException;
 import com.masai.Services.VaccineService;
-
+//A convenience annotation that is itself annotated with @Controller and @ResponseBody.
 @RestController
 
 public class VaccineController {

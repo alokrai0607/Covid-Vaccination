@@ -11,10 +11,13 @@ import com.masai.Exceptions.AdminException;
 import com.masai.Exceptions.LoginException;
 import com.masai.Models.Admin;
 import com.masai.Services.AdminService;
-
+ 
+//A convenience annotation that is itself annotated with @Controller and @ResponseBody. 
 @RestController("adminController")
+
 public class AdminController {
 	
+	//be autowired bySpring's dependency injection facilities.
 	@Autowired
 	private AdminService adminService;
 	

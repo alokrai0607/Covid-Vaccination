@@ -24,7 +24,11 @@ import com.masai.Exceptions.VaccineRegistrationException;
 import com.masai.Models.Appointment;
 import com.masai.Services.AppointmentService;
 
+
+//A convenience annotation that is itself annotated with @Controller and @ResponseBody. 
 @RestController
+
+
 @RequestMapping("/appointments")
 public class AppointmentController {
 

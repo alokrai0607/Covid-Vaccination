@@ -20,7 +20,7 @@ import com.masai.Exceptions.MemberException;
 import com.masai.Models.Member;
 import com.masai.Services.MemberServices;
 import com.masai.dto.MemberUpdateDTO;
-
+//A convenience annotation that is itself annotated with @Controller and @ResponseBody.
 @RestController
 @RequestMapping("/memberController")
 public class MemberController {

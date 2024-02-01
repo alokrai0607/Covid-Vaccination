@@ -23,7 +23,7 @@ import com.masai.Models.VaccineInventory;
 import com.masai.Services.VaccinationCenterService;
 import com.masai.Services.VaccineInventoryService;
 import com.masai.Services.VaccineService;
-
+//A convenience annotation that is itself annotated with @Controller and @ResponseBody.
 @RestController("/inventory")
 public class VaccineInventoryController {
     @Autowired
